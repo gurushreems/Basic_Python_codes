@@ -1,13 +1,14 @@
 import sys
+
 destination={'bangaluru':230,'mysore':300,'chikkamangaluru':140,'ballary':175,'kolluru':110}
 print("welcome to e-bus booking")
 print("loading the current location .......")
-print("FROM :: Shivamogga")
+print("FROM :: Shivamogga")            
 m=0
 tm=0
 
 while True:
-    travel =input("where to?\n::")
+    travel =input("destinaton name ?\n::")
     if travel in destination:
 
         while True:
